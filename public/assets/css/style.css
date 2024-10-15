@@ -1,0 +1,54 @@
+/* Dropdown Content (Hidden by Default) */
+.c-f-o-dropdown-content {
+    display: none;
+    position: sticky;
+    background: #f9f9f9;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    margin-left: -80px;
+  }
+  
+  /* Links inside the dropdown */
+  .c-f-o-dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .c-f-o-dropdown-content a:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .c-f-o-dropdown:hover .c-f-o-dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .c-f-o-dropdown:hover .c-f-o-dropdown-btn {
+    background: #4c49e3;
+    color: #f1f1f1;
+  }
+
+  .swal2-confirm {
+    background-color: #007bff; /* Primary color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.swal2-cancel {
+    background-color: #dc3545; /* Danger color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+.swal2-confirm, .swal2-cancel {
+    margin: 0 5px; /* Adjust the spacing as needed */
+}
